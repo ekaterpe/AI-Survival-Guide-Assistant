@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your AI assistent</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h2>Metropolia AI Survival Guide Assistant</h2>
+    <p>Ask a question about studying in Metropolia</p>
+
+    <form action="/" method = "post">
+        <textarea name = "question" placeholder = "Type your question here"></textarea><br>
+        <button type = "submit">Get answer</button>
+    </form>
+
+    {% if answer %}
+    <div class="answer">
+        <h3>Answer:</h3>
+        <p>{{answer}}</p>
+    </div>
+    {% endif %} 
+</body>
+</html>

@@ -1,5 +1,5 @@
 # AI-Survival-Guide-Assistant
-An AI-powered helper designed for first-year and international students at Metropolia UAS.
+An AI-powered helper designed for first-year and international students at Metropolia UAS. It is intended to support students during their initial time at the university, helping them navigate the large amount of information and adapt to the Finnish education system, which can be especially challenging for international students.
 
 ## Overview
 
